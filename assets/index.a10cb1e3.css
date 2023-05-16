@@ -18365,7 +18365,7 @@ form label {
 .react-photo-album img {
     border-radius: 4px;
     box-shadow: #0003 0 3px 3px -2px, #00000024 0 3px 4px, #0000001f 0 1px 8px;
-    transition: box-shadow .3s cubic-bezier(.4, 0, .2, 1) 0ms
+    transition: box-shadow .3s cubic-bezier(.4, 0, .2, 1) 0ms;
 }
 
 #mh-rsvp {
@@ -18824,5 +18824,14 @@ form label {
 }
 
 #mh-wishes {
+    display: none;
+}
+
+.react-photo-album--photo,
+.img-responsive {
+    object-fit: cover;
+}
+
+.menu-1 ul>li:nth-last-of-type(-n+2) {
     display: none;
 }
